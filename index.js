@@ -1,4 +1,3 @@
-// Playwright
 const playwright = require('playwright')
 async function main() {
     const browser = await playwright.chromium.launch({
